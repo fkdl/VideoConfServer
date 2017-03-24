@@ -4,6 +4,10 @@ using WebSocketSharp.Server;
 
 namespace VideoConfServer.Behaviors
 {
+    /// <summary>
+    /// Behavior for main image endpoint.
+    /// Now it simple broadcasts the bytes to listeners.
+    /// </summary>
     public class MainImageBehavior : WebSocketBehavior
     {
         protected override void OnMessage(MessageEventArgs e)

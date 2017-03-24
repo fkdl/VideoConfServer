@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoConfServer", "VideoConfServer\VideoConfServer.csproj", "{C5DA4248-D119-4AE3-BF46-64551D261C58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestListener", "TestListener\TestListener.csproj", "{394657DC-2672-432E-ACC4-293F19C02A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSender", "TestSender\TestSender.csproj", "{1419E0E0-7388-4912-91CC-1E5ED000CB5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C5DA4248-D119-4AE3-BF46-64551D261C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DA4248-D119-4AE3-BF46-64551D261C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DA4248-D119-4AE3-BF46-64551D261C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394657DC-2672-432E-ACC4-293F19C02A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394657DC-2672-432E-ACC4-293F19C02A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394657DC-2672-432E-ACC4-293F19C02A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394657DC-2672-432E-ACC4-293F19C02A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1419E0E0-7388-4912-91CC-1E5ED000CB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1419E0E0-7388-4912-91CC-1E5ED000CB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1419E0E0-7388-4912-91CC-1E5ED000CB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1419E0E0-7388-4912-91CC-1E5ED000CB5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

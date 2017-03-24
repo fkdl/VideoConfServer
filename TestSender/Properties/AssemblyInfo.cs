@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VideoConfServer")]
+[assembly: AssemblyTitle("TestSender")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("VideoConfServer")]
+[assembly: AssemblyProduct("TestSender")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -18,7 +18,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c5da4248-d119-4ae3-bf46-64551d261c58")]
+[assembly: Guid("1419e0e0-7388-4912-91cc-1e5ed000cb5c")]
 
 // Version information for an assembly consists of the following four values:
 //
