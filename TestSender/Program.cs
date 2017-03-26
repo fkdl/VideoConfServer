@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using TestSender.Helpers;
 using WebSocketSharp;
 
 namespace TestSender
@@ -11,7 +12,7 @@ namespace TestSender
     {
         static void Main(string[] args)
         {
-            using (var ws = new WebSocket("ws://localhost:8888/main"))
+            using (var ws = new WebSocket(AppConfig.ServerEndpoint))
             {
                 ws.Connect();
 

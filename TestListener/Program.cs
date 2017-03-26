@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using TestListener.Helpers;
 using WebSocketSharp;
 
 namespace TestListener
@@ -12,7 +13,7 @@ namespace TestListener
         static void Main(string[] args)
         {
             Directory.CreateDirectory("files");
-            using (var ws = new WebSocket("ws://localhost:8888/main"))
+            using (var ws = new WebSocket(AppConfig.ServerEndpoint))
             {
                 ws.OnMessage += OnWebSocketMessage;
                 ws.Connect();
