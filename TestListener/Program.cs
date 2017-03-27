@@ -16,7 +16,10 @@ namespace TestListener
             using (var ws = new WebSocket(AppConfig.ServerEndpoint))
             {
                 ws.OnMessage += OnWebSocketMessage;
-                ws.Connect();
+                ws.OnOpen += (sender, e) => Console.WriteLine("Socket Opened");
+                ws.OnError += (sender, e) => Console.WriteLine("Socket Error: " + e.Message);
+                ws.OnClose += (sender, e) => Console.WriteLine("Socket Closed: " + e.Reason);
+                ws.ConnectAsync();
 
                 CommandLoop();
             }
