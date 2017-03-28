@@ -4,9 +4,11 @@ using VideoConfServer.Interfaces;
 using WebSocketSharp.Server;
 using System.ServiceProcess;
 
-
 namespace VideoConfServer.Core
 {
+    /// <summary>
+    /// Represents server as Windows Service.
+    /// </summary>
     public class ServiceServer : ServiceBase, IServer
     {
         WebSocketServer listener;

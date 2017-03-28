@@ -6,6 +6,9 @@ using WebSocketSharp.Server;
 
 namespace VideoConfServer.Core
 {
+    /// <summary>
+    /// Represents server as Windows Console Standalone Application.
+    /// </summary>
     public class ConsoleServer : IServer
     {
         public void Run()
