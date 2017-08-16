@@ -1,15 +1,17 @@
-## Стек
+## What is it?
+This is one part of the educational project, the purpose of which was the creation of 3D Videoconferencing System ([based on a such pyramid](https://i.ytimg.com/vi/LbGvM5THvzA/maxresdefault.jpg)). This is a server application that receives processed images by capturer and sends it to listeners.
+
+## Stack
 .NET Framework 4.5.2, C#
 
-## NuGet зависимости
+## NuGet Dependencies
 websocket-sharp by sta ([GitHub](https://github.com/sta/websocket-sharp))
 
-## Содержание репозитория
-- VideoConfServer - проект самого сервера
-- TestListener - проект консольной программы, которая подключается к серверу и получаемые байты записывает как jpg-изображения (использовалась для тестирования сервера)
-- TestSender - проект консольной программы, которая отправляет серверу файлы как массив байт (путь к файлу вводится в консоль), использовалась для тестирования сервера
+## Repository Content
+- VideoConfServer: Exactly server project.
+- TestListener: The project of the console program that connects to the server and writes received bytes as jpg-images (used to test the server).
+- TestSender: The project of the console program that sends files to the server as an array of bytes (the path to the file is entered into the console), was used to test the server
 
-## Сервер
-Настройки приложения в App.config:
-- ServerEndpoint - базовый домен и порт сервера. Например ws://localhost:8888
-- MainPath - путь, который присоединяется к ServerEndpoint. Именно к комбинации ServerEndpoint и MainPath подключаются клиенты.
+## Configuration
+- ServerEndpoint: Base domain and server port, e.g. ws://localhost:8888
+- MainPath: The path that joins ServerEndpoint. A clients are connected to this combination of ServerEndpoint and MainPath.
